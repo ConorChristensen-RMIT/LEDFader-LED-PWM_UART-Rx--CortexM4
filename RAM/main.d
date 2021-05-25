@@ -1,0 +1,12 @@
+.\ram\main.o: src\main.c
+.\ram\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ram\main.o: .\inc\boardSupport.h
+.\ram\main.o: .\inc\stm32f439xx.h
+.\ram\main.o: .\inc\CMSIS\core_cm4.h
+.\ram\main.o: .\inc\config.h
+.\ram\main.o: .\inc\CMSIS\core_cmInstr.h
+.\ram\main.o: .\inc\CMSIS\cmsis_armcc.h
+.\ram\main.o: .\inc\CMSIS\core_cmFunc.h
+.\ram\main.o: .\inc\CMSIS\core_cmSimd.h
+.\ram\main.o: .\RTE\Device\STM32F439IITx\system_stm32f4xx.h
+.\ram\main.o: .\inc\main.h

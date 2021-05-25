@@ -1,0 +1,58 @@
+Dependencies for Project 'STM32F439_Template', Target 'STM32F4 FLASH': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\stm32f4xx_it.c)(0x5E375B2B)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\src\CMSIS -I .\src\CMSIS\arm_math -I .\inc -I .\inc\CMSIS -I .\RTE\Device\STM32F439IITx -D__UVISION_VERSION="529" -D_RTE_ -DSTM32F439xx -DDAUGHTER_REV1 -DSTM32F439-o .\flash\stm32f4xx_it.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\stm32f4xx_it.crf --depend .\flash\stm32f4xx_it.d)
+I (.\inc\stm32f4xx_it.h)(0x5D81BA6A)
+F (.\src\boardSupport.c)(0x5E39F35D)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\src\CMSIS -I .\src\CMSIS\arm_math -I .\inc -I .\inc\CMSIS -I .\RTE\Device\STM32F439IITx -D__UVISION_VERSION="529" -D_RTE_ -DSTM32F439xx -DDAUGHTER_REV1 -DSTM32F439-o .\flash\boardsupport.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\boardsupport.crf --depend .\flash\boardsupport.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AA7E8)
+I (.\inc\stm32f439xx.h)(0x5E376119)
+I (.\inc\CMSIS\core_cm4.h)(0x5D81BA6D)
+I (.\inc\config.h)(0x5E37A4C8)
+I (.\inc\CMSIS\core_cmInstr.h)(0x5D81BA6D)
+I (.\inc\CMSIS\cmsis_armcc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmFunc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmSimd.h)(0x5D81BA6D)
+I (.\RTE\Device\STM32F439IITx\system_stm32f4xx.h)(0x5D81BA72)
+I (.\inc\ioMapping.h)(0x5E378AB4)
+I (.\inc\boardSupport.h)(0x5E3778B9)
+I (.\inc\gpioControl.h)(0x5E3790E3)
+F (.\src\main.c)(0x5E37A502)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\src\CMSIS -I .\src\CMSIS\arm_math -I .\inc -I .\inc\CMSIS -I .\RTE\Device\STM32F439IITx -D__UVISION_VERSION="529" -D_RTE_ -DSTM32F439xx -DDAUGHTER_REV1 -DSTM32F439-o .\flash\main.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AA7E8)
+I (.\inc\boardSupport.h)(0x5E3778B9)
+I (.\inc\stm32f439xx.h)(0x5E376119)
+I (.\inc\CMSIS\core_cm4.h)(0x5D81BA6D)
+I (.\inc\config.h)(0x5E37A4C8)
+I (.\inc\CMSIS\core_cmInstr.h)(0x5D81BA6D)
+I (.\inc\CMSIS\cmsis_armcc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmFunc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmSimd.h)(0x5D81BA6D)
+I (.\RTE\Device\STM32F439IITx\system_stm32f4xx.h)(0x5D81BA72)
+I (.\inc\main.h)(0x5E375C92)
+F (.\src\gpioControl.c)(0x5E379081)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\src\CMSIS -I .\src\CMSIS\arm_math -I .\inc -I .\inc\CMSIS -I .\RTE\Device\STM32F439IITx -D__UVISION_VERSION="529" -D_RTE_ -DSTM32F439xx -DDAUGHTER_REV1 -DSTM32F439-o .\flash\gpiocontrol.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\gpiocontrol.crf --depend .\flash\gpiocontrol.d)
+I (.\inc\stm32f439xx.h)(0x5E376119)
+I (.\inc\CMSIS\core_cm4.h)(0x5D81BA6D)
+I (.\inc\config.h)(0x5E37A4C8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AA7E8)
+I (.\inc\CMSIS\core_cmInstr.h)(0x5D81BA6D)
+I (.\inc\CMSIS\cmsis_armcc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmFunc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmSimd.h)(0x5D81BA6D)
+I (.\RTE\Device\STM32F439IITx\system_stm32f4xx.h)(0x5D81BA72)
+I (.\inc\gpioControl.h)(0x5E3790E3)
+F (.\inc\main.h)(0x5E375C92)()
+F (.\inc\config.h)(0x5E37A4C8)()
+F (.\inc\boardSupport.h)(0x5E3778B9)()
+F (.\inc\stm32f439xx.h)(0x5E376119)()
+F (.\inc\ioMapping.h)(0x5E378AB4)()
+F (.\RTE\Device\STM32F439IITx\system_stm32f4xx.h)(0x5D81BA72)()
+F (.\inc\gpioControl.h)(0x5E3790E3)()
+F (RTE\Device\STM32F439IITx\startup_stm32f439xx.s)(0x5E37A522)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32F4_FLASH-IC:\Keil_v5\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F439xx SETA 1"--list .\flash\startup_stm32f439xx.lst --xref -o .\flash\startup_stm32f439xx.o --depend .\flash\startup_stm32f439xx.d)
+F (RTE\Device\STM32F439IITx\system_stm32f4xx.c)(0x5E39F36E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I .\inc -I .\inc\CMSIS -I .\RTE\Device\STM32F439IITx -D__UVISION_VERSION="529" -D_RTE_ -DSTM32F439xx -DDAUGHTER_REV1 -DSTM32F439-o .\flash\system_stm32f4xx.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\system_stm32f4xx.crf --depend .\flash\system_stm32f4xx.d)
+I (.\inc\config.h)(0x5E37A4C8)
+I (.\inc\stm32f439xx.h)(0x5E376119)
+I (.\inc\CMSIS\core_cm4.h)(0x5D81BA6D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AA7E8)
+I (.\inc\CMSIS\core_cmInstr.h)(0x5D81BA6D)
+I (.\inc\CMSIS\cmsis_armcc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmFunc.h)(0x5D81BA6D)
+I (.\inc\CMSIS\core_cmSimd.h)(0x5D81BA6D)
+I (.\RTE\Device\STM32F439IITx\system_stm32f4xx.h)(0x5D81BA72)

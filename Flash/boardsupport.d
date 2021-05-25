@@ -1,0 +1,13 @@
+.\flash\boardsupport.o: src\boardSupport.c
+.\flash\boardsupport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\boardsupport.o: .\inc\stm32f439xx.h
+.\flash\boardsupport.o: .\inc\CMSIS\core_cm4.h
+.\flash\boardsupport.o: .\inc\config.h
+.\flash\boardsupport.o: .\inc\CMSIS\core_cmInstr.h
+.\flash\boardsupport.o: .\inc\CMSIS\cmsis_armcc.h
+.\flash\boardsupport.o: .\inc\CMSIS\core_cmFunc.h
+.\flash\boardsupport.o: .\inc\CMSIS\core_cmSimd.h
+.\flash\boardsupport.o: .\RTE\Device\STM32F439IITx\system_stm32f4xx.h
+.\flash\boardsupport.o: .\inc\ioMapping.h
+.\flash\boardsupport.o: .\inc\boardSupport.h
+.\flash\boardsupport.o: .\inc\gpioControl.h

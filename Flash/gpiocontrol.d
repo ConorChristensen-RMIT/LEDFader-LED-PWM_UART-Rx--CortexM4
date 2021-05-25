@@ -1,0 +1,11 @@
+.\flash\gpiocontrol.o: src\gpioControl.c
+.\flash\gpiocontrol.o: .\inc\stm32f439xx.h
+.\flash\gpiocontrol.o: .\inc\CMSIS\core_cm4.h
+.\flash\gpiocontrol.o: .\inc\config.h
+.\flash\gpiocontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\gpiocontrol.o: .\inc\CMSIS\core_cmInstr.h
+.\flash\gpiocontrol.o: .\inc\CMSIS\cmsis_armcc.h
+.\flash\gpiocontrol.o: .\inc\CMSIS\core_cmFunc.h
+.\flash\gpiocontrol.o: .\inc\CMSIS\core_cmSimd.h
+.\flash\gpiocontrol.o: .\RTE\Device\STM32F439IITx\system_stm32f4xx.h
+.\flash\gpiocontrol.o: .\inc\gpioControl.h

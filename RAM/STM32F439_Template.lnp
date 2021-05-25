@@ -1,0 +1,11 @@
+--cpu=Cortex-M4.fp.sp
+".\ram\stm32f4xx_it.o"
+".\ram\boardsupport.o"
+".\ram\main.o"
+".\ram\gpiocontrol.o"
+".\ram\startup_stm32f439xx.o"
+".\ram\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\RAM\STM32F439_Template.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RAM\STM32F439_Template.map" -o .\RAM\STM32F439_Template.axf

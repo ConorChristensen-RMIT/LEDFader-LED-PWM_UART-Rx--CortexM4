@@ -1,0 +1,11 @@
+--cpu=Cortex-M4.fp.sp
+".\flash\stm32f4xx_it.o"
+".\flash\boardsupport.o"
+".\flash\main.o"
+".\flash\gpiocontrol.o"
+".\flash\startup_stm32f439xx.o"
+".\flash\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Flash\STM32F439_Template.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\STM32F439_Template.map" -o .\Flash\STM32F439_Template.axf

@@ -1,0 +1,11 @@
+.\ram\gpiocontrol.o: src\gpioControl.c
+.\ram\gpiocontrol.o: .\inc\stm32f439xx.h
+.\ram\gpiocontrol.o: .\inc\CMSIS\core_cm4.h
+.\ram\gpiocontrol.o: .\inc\config.h
+.\ram\gpiocontrol.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\ram\gpiocontrol.o: .\inc\CMSIS\core_cmInstr.h
+.\ram\gpiocontrol.o: .\inc\CMSIS\cmsis_armcc.h
+.\ram\gpiocontrol.o: .\inc\CMSIS\core_cmFunc.h
+.\ram\gpiocontrol.o: .\inc\CMSIS\core_cmSimd.h
+.\ram\gpiocontrol.o: .\RTE\Device\STM32F439IITx\system_stm32f4xx.h
+.\ram\gpiocontrol.o: .\inc\gpioControl.h
